@@ -19,7 +19,8 @@
     {
       "id": "background",
       "type": "background",
-      "paint": {"background-color": "#f8f4f0"}
+      "layout": {"visibility": "visible"},
+      "paint": {"background-color": "rgba(233, 233, 233, 1)"}
     },
     {
       "id": "landcover-glacier",
@@ -27,6 +28,7 @@
       "source": "openmaptiles",
       "source-layer": "landcover",
       "filter": ["==", "subclass", "glacier"],
+      "layout": {"visibility": "visible"},
       "paint": {
         "fill-color": "#fff",
         "fill-opacity": {"base": 1, "stops": [[0, 0.9], [10, 0.3]]}
@@ -710,7 +712,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "rgba(255, 251, 115, 1)",
+        "line-color": "rgba(118, 118, 118, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -1126,7 +1128,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "rgba(255, 251, 115, 1)",
+        "line-color": "rgba(118, 118, 118, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -1301,7 +1303,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "#fea",
+        "line-color": "rgba(255, 251, 115, 1)",
         "line-width": {
           "base": 1.2,
           "stops": [[12.5, 0], [13, 1.5], [14, 2.5], [20, 11.5]]
@@ -1333,7 +1335,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "#fea",
+        "line-color": "rgba(255, 251, 115, 1)",
         "line-width": {"base": 1.2, "stops": [[6.5, 0], [7, 0.5], [20, 20]]}
       }
     },
