@@ -50,7 +50,7 @@
       "maxzoom": 13,
       "filter": ["all", ["==", "class", "national_park"]],
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(102, 170, 68, 1)", "fill-opacity": 0.1}
+      "paint": {"fill-color": "rgba(151, 245, 151, 1)", "fill-opacity": 0.1}
     },
     {
       "id": "landuse-residential",
@@ -135,7 +135,7 @@
       "filter": ["==", "class", "wood"],
       "paint": {
         "fill-antialias": {"base": 1, "stops": [[0, false], [9, true]]},
-        "fill-color": "rgba(203, 216, 195, 1)",
+        "fill-color": "rgba(51, 62, 46, 1)",
         "fill-opacity": 0.1,
         "fill-outline-color": "hsla(0, 0%, 0%, 0.03)"
       }
@@ -710,7 +710,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(255, 251, 115, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -738,7 +738,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(118, 118, 118, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -800,7 +800,7 @@
       ],
       "layout": {"line-cap": "butt", "line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(118, 118, 118, 1)",
         "line-opacity": {"stops": [[7, 0], [8, 1]]},
         "line-width": {
           "base": 1.2,
@@ -879,7 +879,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#fc8",
+        "line-color": "rgba(255, 251, 115, 1)",
         "line-width": {
           "base": 1.2,
           "stops": [[12.5, 0], [13, 1.5], [14, 2.5], [20, 11.5]]
@@ -966,7 +966,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#fea",
+        "line-color": "rgba(255, 251, 115, 1)",
         "line-width": {"base": 1.2, "stops": [[8.5, 0], [9, 0.5], [20, 18]]}
       }
     },
@@ -1126,7 +1126,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(255, 251, 115, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -1153,7 +1153,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(118, 118, 118, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -1189,7 +1189,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(118, 118, 118, 1)",
         "line-opacity": 1,
         "line-width": {"base": 1.2, "stops": [[8, 1.5], [20, 28]]}
       }
@@ -1275,7 +1275,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "#fc8",
+        "line-color": "rgba(255, 251, 115, 1)",
         "line-width": {
           "base": 1.2,
           "stops": [[12.5, 0], [13, 1.5], [14, 2.5], [20, 11.5]]
