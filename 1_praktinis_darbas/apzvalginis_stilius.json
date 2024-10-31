@@ -19,7 +19,7 @@
     {
       "id": "background",
       "type": "background",
-      "paint": {"background-color": "#f8f4f0"}
+      "paint": {"background-color": "rgba(245, 245, 245, 1)"}
     },
     {
       "id": "landcover-glacier",
@@ -344,7 +344,7 @@
       "source": "openmaptiles",
       "source-layer": "landcover",
       "filter": ["all", ["==", "class", "sand"]],
-      "paint": {"fill-color": "rgba(245, 238, 188, 1)", "fill-opacity": 1}
+      "paint": {"fill-color": "rgba(228, 232, 228, 1)", "fill-opacity": 1}
     },
     {
       "id": "building",
@@ -711,7 +711,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(210, 210, 210, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -739,7 +739,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(210, 210, 210, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -880,7 +880,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#fc8",
+        "line-color": "rgba(255, 255, 255, 1)",
         "line-width": {
           "base": 1.2,
           "stops": [[12.5, 0], [13, 1.5], [14, 2.5], [20, 11.5]]
@@ -907,7 +907,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#fea",
+        "line-color": "rgba(255, 255, 255, 1)",
         "line-width": {
           "base": 1.2,
           "stops": [[12.5, 0], [13, 1.5], [14, 2.5], [20, 11.5]]
@@ -1127,7 +1127,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(210, 210, 210, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -1154,7 +1154,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(210, 210, 210, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -1276,7 +1276,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "#fc8",
+        "line-color": "rgba(255, 255, 255, 1)",
         "line-width": {
           "base": 1.2,
           "stops": [[12.5, 0], [13, 1.5], [14, 2.5], [20, 11.5]]
@@ -1302,7 +1302,7 @@
       ],
       "layout": {"line-join": "round"},
       "paint": {
-        "line-color": "#fea",
+        "line-color": "rgba(255, 255, 255, 1)",
         "line-width": {
           "base": 1.2,
           "stops": [[12.5, 0], [13, 1.5], [14, 2.5], [20, 11.5]]
