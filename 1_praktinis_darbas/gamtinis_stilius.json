@@ -19,7 +19,7 @@
     {
       "id": "background",
       "type": "background",
-      "paint": {"background-color": "#f8f4f0"}
+      "paint": {"background-color": "rgba(237, 237, 205, 1)"}
     },
     {
       "id": "landcover-glacier",
