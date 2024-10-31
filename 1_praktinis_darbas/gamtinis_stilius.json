@@ -101,7 +101,7 @@
       "source": "openmaptiles",
       "source-layer": "landuse",
       "filter": ["==", "class", "cemetery"],
-      "paint": {"fill-color": "#e0e4dd"}
+      "paint": {"fill-color": "rgba(215, 230, 215, 1)"}
     },
     {
       "id": "landuse-hospital",
@@ -355,8 +355,8 @@
         "fill-color": {
           "base": 1,
           "stops": [
-            [15.5, "rgba(248, 248, 194, 1)"],
-            [16, "rgba(248, 248, 194, 1)"]
+            [15.5, "rgba(236, 236, 219, 1)"],
+            [16, "rgba(236, 236, 219, 1)"]
           ]
         }
       }
@@ -367,7 +367,7 @@
       "source": "openmaptiles",
       "source-layer": "building",
       "paint": {
-        "fill-color": "rgba(248, 248, 194, 1)",
+        "fill-color": "rgba(236, 236, 219, 1)",
         "fill-opacity": {"base": 1, "stops": [[13, 0], [16, 1]]},
         "fill-outline-color": "rgba(169, 169, 169, 1)",
         "fill-translate": {"base": 1, "stops": [[14, [0, 0]], [16, [-2, -2]]]}
@@ -607,7 +607,7 @@
       "filter": ["all", ["in", "class", "runway"]],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "rgba(153, 153, 153, 1)",
+        "line-color": "rgba(153, 153, 153, 0.25)",
         "line-opacity": 1,
         "line-width": {"base": 1.5, "stops": [[11, 5], [17, 55]]}
       }
@@ -710,7 +710,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(149, 149, 149, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -738,7 +738,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#e9ac77",
+        "line-color": "rgba(149, 149, 149, 1)",
         "line-opacity": 1,
         "line-width": {
           "base": 1.2,
@@ -879,7 +879,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#fc8",
+        "line-color": "rgba(242, 189, 162, 1)",
         "line-width": {
           "base": 1.2,
           "stops": [[12.5, 0], [13, 1.5], [14, 2.5], [20, 11.5]]
@@ -906,7 +906,7 @@
       ],
       "layout": {"line-cap": "round", "line-join": "round"},
       "paint": {
-        "line-color": "#fea",
+        "line-color": "rgba(242, 189, 162, 1)",
         "line-width": {
           "base": 1.2,
           "stops": [[12.5, 0], [13, 1.5], [14, 2.5], [20, 11.5]]
