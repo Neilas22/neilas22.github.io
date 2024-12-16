@@ -26,3 +26,25 @@ function switchBgLayers(layerName) {
     // MapLibre setStyle funkcija pakeičia žemėlapio stilių
     map.setStyle(layer);
 }
+
+map.on("load", () => {
+    console.log("Žemėlapis užsikrovė");
+
+    map.addSource("hidroelektrines-source",{
+        type: "raster",
+        tiles:[
+            "http://localhost/qgisserver/hidroelektrines_zemelapis?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=Hidroelektrines"
+        ],
+        tilesize: 128,
+    });
+    map.addLayer(
+        {
+            id: "hidroelektrines-wms",
+            type: "raster",
+            source: "hidroelektrines-source",
+            layout: {
+                visibility: "visible",
+            }
+        }
+    );
+});
