@@ -48,7 +48,7 @@ function loadThematicLayers() {
         tiles:[
             "http://localhost/qgisserver/hidroelektrines_zemelapis?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=Hidroelektrines"
         ],
-        tilesize: 128,
+        tilesize: 64,
     });
 
     map.addSource("medziokles_plotu_vienetai-source",{
@@ -56,7 +56,7 @@ function loadThematicLayers() {
         tiles:[
             "http://localhost/qgisserver/medziokles_plotu_vienetu_zemelapis?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=Medziokles_plotu_vienetai"
         ],
-        tilesize: 128,
+        tilesize: 64,
     });
 
     map.addSource("upes-source",{
@@ -64,7 +64,7 @@ function loadThematicLayers() {
         tiles:[
             "http://localhost/qgisserver/upes_zemelapis?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=Upes"
         ],
-        tilesize: 128,
+        tilesize: 64,
     });
 
     // Pridedami žemėlapio sluoksniai iš žemėlapio šaltinių
